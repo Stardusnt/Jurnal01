@@ -2,7 +2,7 @@ public class Jurnal01 {
 
 
     public static void main(String[] args) {
-        ManajerAlatMusik<Object> manajer = new ManajerAlatMusik<>();
+        Toko<Object> manajer = new Toko<>();
         
         manajer.tambahAlatMusik(new AlatMusikTradisional("T001", "Angklung", 150000, 10));
         manajer.tambahAlatMusik(new AlatMusikTradisional("T002", "Gamelan", 300000, 5));

@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class ManajerAlatMusik<T> {
+public class Toko<T> {
     private List<T> daftarAlatMusik = new ArrayList<>();
 
     public void tambahAlatMusik(T alatMusik) {
